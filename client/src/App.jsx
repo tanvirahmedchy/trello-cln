@@ -16,7 +16,7 @@ import {
 
 function App() {
     const authChecked = Boolean(useSelector((state) => state.token));
-
+    //  checking error changes
     return (
         <>
             {authChecked && <Layout />}
